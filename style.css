@@ -1,0 +1,341 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 0.9rem;
+}
+
+body{
+    background: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* CSS Styling for the dashboard.php */
+
+h1{
+    font-size: 3rem;
+    color: rgb(53, 39, 39);
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a{
+    color: blue;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  table{
+      border: none;
+      border-style: hidden;
+      padding: 0px;
+      border-collapse: collapse;
+  }
+
+  table th{
+      background: gray;
+      color: #fff;
+      width: 10%;
+      height: 2.5rem;
+      text-align: start;
+  }
+
+  th:nth-child(8), th:nth-child(8) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  th:nth-child(9), th:nth-child(9) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  table td{
+    background: rgb(53, 39, 39);
+    color: #fff;
+    height: 2.5rem;
+    padding: 1px;
+    width: auto;
+  }
+
+  td:first-child, th:first-child {
+    border-left: #fff solid 1px;
+     border-bottom:  #fff solid 1px;
+     padding-left: 5px;
+   }
+
+  td:nth-child(2), th:nth-child(2) {
+     border-left: #fff solid 1px;
+     border-bottom:  #fff solid 1px;
+     padding-left: 5px;
+   }
+
+   td:nth-child(3), th:nth-child(3) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  td:nth-child(4), th:nth-child(4) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  td:nth-child(5), th:nth-child(5) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  td:nth-child(5), th:nth-child(5) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  td:nth-child(6), th:nth-child(6) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  td:nth-child(7), th:nth-child(7) {
+    border-left: #fff solid 1px;
+    border-bottom:  #fff solid 1px;
+    padding-left: 5px;
+  }
+
+  .delete{
+      width: 100%;
+      height: 100%;
+      background: rgb(211, 27, 27);
+      border : 0px;
+  }
+
+  .delete a{
+      color: white;
+      font-weight: bold;
+  }
+
+  .edit a{
+    color: white;
+    font-weight: bold;
+    }
+
+  .edit{
+    width: 100%;
+    height: 100%;
+    /*background: rgb(247, 166, 18);*/
+    background: green;
+    border : 0px;
+  }
+
+  .logout{
+      background: red;
+      width: 8rem;
+      height: 3rem;
+      border : 0px;
+  }
+
+  .logout a{
+      color: white;
+      font-weight: bold;
+  }
+
+  .end{
+      width: 100%;
+      text-align: center;
+  }
+
+/* CSS Styling for the Register.php */
+
+  #container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-box{
+    background: #fff;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+#form-box-2{
+    background: #fff;
+    position: relative;
+    width: 350px;
+    height: 280px;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.input{
+    width: 200px;
+    height: 1.5rem;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.register{
+    background: green;
+    color: #fff;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 3rem;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+
+.regist{
+    color: darkblue;
+    font-size: 1rem;
+    float: right;
+    margin-right: 10rem;
+}
+
+.regist:hover{
+    color: red;
+}
+
+.back{
+    background: green;
+    color: #fff;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 1rem;
+}
+
+.back a{
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    #form-box-2{
+        width: 330px;
+        height: 260px;
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 2.5rem;
+    }
+
+    #form-box{
+        width: 350px;
+        height: 400px;
+        border: 1px solid #000;
+        font-size: 1rem;
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    h1{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+    
+    #form-box-2{
+        width: 310px;
+        height: 240px;
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+    
+    .register{
+        background: green;
+        color: #fff;
+        width: 8rem;
+        height: 3rem;
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .regist{
+        margin-right: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    
+    #container{
+        height: 80vh;
+    }
+
+    h1{
+        font-size: 1.15rem;
+        margin-top: 2.5rem;
+    }
+
+    #form-box{
+        width: 320px;
+        height: 400px;
+        border: 1px solid #000;
+        font-size: 1rem;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    
+    #form-box-2{
+        width: 300px;
+        height: 240px;
+        font-size: 1rem;
+        padding-top: 3rem;
+        padding-left: 1.5rem;
+    }
+    
+    .register{
+        float: right;
+        margin-right: 1.5rem;
+    }
+
+    .center{
+        width: 100%;
+        text-align: center;
+        height: 2rem;
+        padding-top: 0.5rem;
+    }
+
+  }
